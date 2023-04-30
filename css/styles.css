@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:ital,wght@1,300&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(251, 246, 246);
+
+}
+
+header {
+    height: 8vh;
+    background-color: #047BD5;
+    font-family: 'Roboto', Arial, sans-serif
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 3px;
+
+}
+
+nav ul {
+    display: flex;
+    padding-top: 20px;
+
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 20px;
+    font-size: 20px;
+    color: white;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+
+.logo img {
+    width: 15vh;
+    height: 3vw;
+}
+
+.search {
+    align-items: center;
+    font-family: 'Roboto', Arial, sans-serif;
+    margin-bottom: 0.8px;
+}
+
+.search input {
+    width: 38vw;
+    height: 5vh;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.btn {
+    height: 5.5vh;
+    width: 4vw;
+    position: relative;
+    top: -0.1px;
+    right: 59px;
+    color: black;
+    background-color: white;
+    border: 1px solid #047BD5;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: #047BD5;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+
+}
+
+.login input {
+    width: 8vw;
+    height: 4vh;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.login input {
+    cursor: pointer;
+}
+
+
+.topcontainer {
+    display: flex;
+    height: 13vh;
+    justify-content: space-evenly;
+    padding-top: 20px;
+
+}
+
+.topcontainer img {
+    display: flex;
+    height: 9vh;
+    justify-content: center;
+}
+
+.topcontainer img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.topcontainer p {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.topcontainer p:hover {
+    cursor: pointer;
+    color: #047BD5;
+}
+
+.midcontainer {
+    border: 1px solid grey;
+    display: flex;
+    height: 37vh;
+    background-color: rgb(251, 246, 246);
+    overflow: hidden;
+    justify-content: center;
+}
+
+.midcontainer img {
+    height: 37vh;
+    width: 110vw;
+}
+
+.midcontainer2 {
+    display: flex;
+    height: 15vh;
+    background-color: rgb(251, 246, 246);
+    justify-content: center;
+}
+
+.midcontainer2 img {
+    border: 1px solid black;
+    margin: auto;
+    height: 13vh;
+}
+
+.midcontainer3 {
+    display: flex;
+    height: 33vh;
+    border: 1px solid black;
+    justify-content: center;
+    column-gap: 80px;
+    padding: 15px;
+}
+
+.midcontainer3 img {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+}
+
+.midcontainer3 img:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.midcontainer3 p {
+    text-align: center;
+}
+
+.midcontainer3 p:hover {
+    cursor: pointer;
+}
+
+.l2 {
+    color: green;
+}
+
+.midcontainer4 {
+    height: 35vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    align-items: center;
+
+}
+
+.midcontainer4 img {
+    height: 34.5vh;
+    width: 32vw;
+}
+
+.midcontainer5 {
+    height: 45vh;
+    background-color: #152336;
+    padding: 22px;
+    display: flex;
+    column-gap: 85px;
+    row-gap: 10px;
+    justify-content: space-between;
+    margin: 3px;
+}
+
+.midcontainer5 p {
+    margin: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.midcontainer5 p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h5 {
+    margin: 10px;
+    color: #C8C8C8;
+}
+
+.midcontainer6 {
+    background-color: #152336;
+    height: 7vh;
+    margin: 1px;
+    display: flex;
+
+    justify-content: center;
+    column-gap: 100px;
+
+
+
+}
+
+.midcontainer6 img {
+    margin-top: 10px;
+}
+
+.badge {
+    font-size: 17px;
+    color: white;
+}
+
+.badge:hover {
+    cursor: pointer;
+}
+
+.payment {
+    height: 5vh;
+    width: 28vw;
+
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vh;
+    background-color: #152336;
+    color: white;
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 2px;
+}
